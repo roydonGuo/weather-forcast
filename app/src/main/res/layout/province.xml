@@ -1,0 +1,99 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="48dp"-->
+<!--    android:id="@+id/tv_province_list"-->
+<!--    android:textColor="@color/white"-->
+<!--    android:text="河南省"-->
+<!--    android:textSize="20sp"-->
+<!--    android:layout_marginLeft="10dp"-->
+<!--    android:layout_marginRight="10dp"-->
+<!--    android:layout_marginTop="5dp"-->
+<!--    android:background="@drawable/blackground"-->
+<!--    android:gravity="center_vertical"-->
+<!--    android:paddingLeft="10dp"-->
+<!--    >-->
+
+
+<!--</TextView>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="150dp"
+android:layout_height="58dp"
+android:textSize="20sp"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="10dp"
+android:layout_marginTop="5dp"
+android:background="@drawable/blackground"
+android:gravity="center_vertical"
+android:paddingLeft="10dp"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_province_list"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="河南省" />
+    <!--市列表-->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/city_items"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="50dp" />-->
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCity"
+        />
+</LinearLayout>
+
+
+
+<!--    <androidx.appcompat.widget.AppCompatSpinner-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/spinner_cityItem"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        />-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <androidx.appcompat.widget.AppCompatSpinner-->
+<!--            android:id="@+id/spinner_cityItem"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:dropDownVerticalOffset="48dp"-->
+<!--            android:entries="@array/cities"-->
+<!--            android:overlapAnchor="false"-->
+<!--            android:popupBackground="@color/trans"-->
+<!--            android:spinnerMode="dropdown"-->
+
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <androidx.appcompat.widget.AppCompatSpinner-->
+<!--            android:id="@+id/sp_city"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:dropDownVerticalOffset="48dp"-->
+<!--            android:entries="@array/cities"-->
+<!--            android:overlapAnchor="false"-->
+<!--            android:popupBackground="@color/trans"-->
+<!--            android:spinnerMode="dropdown"-->
+
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+</LinearLayout>

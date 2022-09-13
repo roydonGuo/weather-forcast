@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:background="@mipmap/bg_main"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:text="紫外线强度"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_level"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        tools:text="一般"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="涂擦SPF大于15、PA+防晒护肤品" />
+
+</RelativeLayout>

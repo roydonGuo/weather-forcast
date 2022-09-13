@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/backgroung_city"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/city_city"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:text="西安" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="16°C"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:id="@+id/city_tem"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
