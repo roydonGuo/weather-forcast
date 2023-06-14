@@ -15,6 +15,7 @@ public class NetworkUtil {
      * 18625561：27XjzrB7
      * 67342285：5XgTk31r
      * 19267789：Dhu3DShY
+     * 此appid和appsecret请自行前往https://tianqiapi.com/注册账号申请
      */
     public static final String URL_WEATHER = "https://tianqiapi.com/api?version=v1&appid=67342285&appsecret=5XgTk31r";
 
