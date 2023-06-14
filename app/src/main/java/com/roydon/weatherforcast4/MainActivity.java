@@ -260,6 +260,9 @@ public class MainActivity extends AppCompatActivity {
         if (weatherBean == null) {
             return;
         }
+        if(weatherBean.getData()==null){
+            return;
+        }
         dayWeather = weatherBean.getData().get(0);//当天天气
         if (dayWeather == null) {
             return;
