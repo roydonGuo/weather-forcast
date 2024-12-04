@@ -17,7 +17,7 @@ public class NetworkUtil {
      * 19267789：Dhu3DShY
      * 此appid和appsecret请自行前往https://tianqiapi.com/注册账号申请
      */
-    public static final String URL_WEATHER = "http://gfeljm.tianqiapi.com/api?unescape=1&version=v9&appid=18625561&appsecret=27XjzrB7";
+    public static final String URL_WEATHER = "http://tianqiapi.com/api?unescape=1&version=v9&appid=18625561&appsecret=27XjzrB7";
     // https://tianqiapi.com/api?version=v1&appid=67342285&appsecret=5XgTk31r //此行链接为老版本已失效
     // https://v0.yiketianqi.com/api?unescape=1&version=v9&appid=67342285&appsecret=5XgTk31r //此行链接为老版本已失效
     // https://v1.yiketianqi.com/api?unescape=1&version=v91&appid=18625561&appsecret=27XjzrB7 //此行链接响应体不完全
